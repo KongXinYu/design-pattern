@@ -1,9 +1,4 @@
-package com.wzy.design.pattern.structural.decorator.v2;/**
- * @description:
- * @author: Administrator
- * @time: 2020/9/22 0022 下午 5:01
- */
-
+package com.wzy.design.pattern.structural.decorator.v2;
 /**
  *
  *普通的煎饼类

@@ -1,9 +1,4 @@
-package com.wzy.design.pattern.structural.decorator.v1;/**
- * @description:
- * @author: Administrator
- * @time: 2020/9/22 0022 下午 5:08
- */
-
+package com.wzy.design.pattern.structural.decorator.v1;
 /**
  *
  * 能满足现有场景，如果还需要真加新的场景者，如加两个蛋的场景就需要在增加类
