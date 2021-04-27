@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!--    <className>com.wzy.design.pattern.creational.factorymethod.v1.FileLoggerFactory</className>-->
+    <className>com.wzy.design.pattern.creational.factorymethod.v1.DatabaseLoggerFactory</className>
+    <pictureReaderFactory>com.wzy.design.pattern.creational.factorymethod.practice.JpgReaderFactory</pictureReaderFactory>
+</config>
