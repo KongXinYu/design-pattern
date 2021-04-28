@@ -3,4 +3,6 @@
 <!--    <className>com.wzy.design.pattern.creational.factorymethod.v1.FileLoggerFactory</className>-->
     <className>com.wzy.design.pattern.creational.factorymethod.v1.DatabaseLoggerFactory</className>
     <pictureReaderFactory>com.wzy.design.pattern.creational.factorymethod.practice.JpgReaderFactory</pictureReaderFactory>
+    <skinFactory>com.wzy.design.pattern.creational.abstractfactory.v1.SummerSkinFactory</skinFactory>
+    <controllerFactory>com.wzy.design.pattern.creational.abstractfactory.practice.SymbianControllerFactory</controllerFactory>
 </config>
