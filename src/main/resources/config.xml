@@ -5,4 +5,6 @@
     <pictureReaderFactory>com.wzy.design.pattern.creational.factorymethod.practice.JpgReaderFactory</pictureReaderFactory>
     <skinFactory>com.wzy.design.pattern.creational.abstractfactory.v1.SummerSkinFactory</skinFactory>
     <controllerFactory>com.wzy.design.pattern.creational.abstractfactory.practice.SymbianControllerFactory</controllerFactory>
+    <builder>com.wzy.design.pattern.creational.builder.v1.HeroBuilder</builder>
+    <playerBuilder>com.wzy.design.pattern.creational.builder.v2.MemoryModeBuilder</playerBuilder>
 </config>

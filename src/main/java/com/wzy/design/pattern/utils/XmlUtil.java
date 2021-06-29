@@ -21,7 +21,7 @@ public class XmlUtil {
      * 该方法用于从XML配置文件中提取具体类类名，并返回一个实例对象
      * @return
      */
-    public static Object getFristBean(String path, String tagName) {
+    public static <T> T getFristBean(String path, String tagName) {
         NodeList nl = getNodeList(path, tagName);
         if (null == nl) {
             return null;
@@ -32,7 +32,7 @@ public class XmlUtil {
         // 通过类名生成实例对象并将其返回
         try {
             Class c = Class.forName(cName);
-            Object obj = c.newInstance();
+            T obj = (T) c.newInstance();
             return obj;
         } catch (Exception e) {
             e.printStackTrace();
