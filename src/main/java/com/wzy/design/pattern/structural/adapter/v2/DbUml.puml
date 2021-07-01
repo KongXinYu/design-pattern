@@ -1,0 +1,32 @@
+@startuml
+
+
+interface DbOpreation
+
+DbOpreation <|-- OperationAdapter
+
+interface DbOpreation {
++String commandEncrypt(String command)
++String emailEncrypt(String email)
+}
+
+class OperationAdapter {
+-CommandSercet commandSercet
+-EmailSercet emailSercet
++OperationAdapter(CommandSercet commandSercet, EmailSercet emailSercet)
++String commandEncrypt(String command)
++String emailEncrypt(String email)
+}
+
+OperationAdapter *- CommandSercet
+OperationAdapter *- EmailSercet
+
+class CommandSercet {
++String encrypt(String command)
+}
+
+class EmailSercet {
++String encrypt(String email)
+}
+
+@enduml

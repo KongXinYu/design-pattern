@@ -7,4 +7,7 @@
     <controllerFactory>com.wzy.design.pattern.creational.abstractfactory.practice.SymbianControllerFactory</controllerFactory>
     <builder>com.wzy.design.pattern.creational.builder.v1.HeroBuilder</builder>
     <playerBuilder>com.wzy.design.pattern.creational.builder.v2.MemoryModeBuilder</playerBuilder>
+    <adapterv1>com.wzy.design.pattern.structural.adapter.v1.OperationAdapter</adapterv1>
+    <adapterv2>com.wzy.design.pattern.structural.adapter.v2.OperationAdapter</adapterv2>
+
 </config>
